@@ -12,11 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "content": {
-      "type": "text"
-    },
     "name": {
       "type": "string"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
