@@ -803,6 +803,7 @@ export interface ApiArticleArticle extends Schema.CollectionType {
     title: Attribute.String;
     image: Attribute.Media;
     content: Attribute.RichText;
+    slug: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -835,6 +836,7 @@ export interface ApiSpecSpec extends Schema.CollectionType {
   attributes: {
     name: Attribute.String;
     content: Attribute.RichText;
+    slug: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
