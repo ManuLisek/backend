@@ -24,16 +24,12 @@
   "author": {
     "name": "A Strapi developer"
   },
-  "engines": {
-  "node": "18.x",
-  "npm": "8.x"
-  },
   "strapi": {
     "uuid": "558726a4-9b50-4908-a087-0ce1f16e86f0"
   },
   "engines": {
-    "node": ">=18.0.0 <=20.x.x",
-    "npm": ">=6.0.0"
+    "node": "18.x",
+    "npm": "8.x"
   },
   "license": "MIT"
 }
